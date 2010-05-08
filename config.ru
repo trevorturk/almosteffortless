@@ -1,0 +1,1 @@
+run lambda {|env| [301, {'Content-Type'=>'text/html', 'Location'=>"http://trevorturk.com#{env['PATH_INFO']}"}, ['Redirecting...']]}
